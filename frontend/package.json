@@ -1,0 +1,40 @@
+{
+    "name": "gitworld-frontend",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@react-three/drei": "^9.92.7",
+        "@react-three/fiber": "^8.15.12",
+        "axios": "^1.6.2",
+        "date-fns": "^3.0.6",
+        "framer-motion": "^10.16.16",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hot-toast": "^2.4.1",
+        "react-query": "^3.39.3",
+        "react-router-dom": "^6.20.0",
+        "react-scripts": "5.0.1",
+        "recharts": "^2.10.3",
+        "three": "^0.160.0",
+        "zustand": "^4.4.7"
+    },
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead"
+        ],
+        "development": [
+            "last 1 chrome version"
+        ]
+    },
+    "proxy": "http://localhost:4000",
+    "devDependencies": {
+        "@vitejs/plugin-react": "^5.1.4",
+        "vite": "^7.3.1"
+    }
+}
